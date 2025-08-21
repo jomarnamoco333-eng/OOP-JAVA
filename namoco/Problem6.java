@@ -11,11 +11,23 @@ import java.util.Scanner;
  * @author User
  */
 public class Problem6 {
+
     public static void main(String[] args) {
-        Scanner sc = Scanner new(System.in);
-        System.out.println("Enter Range:");
-        int num = sc.nextInt()
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter Range: ");
+        int range = scanner.nextInt();
+
         
+
+        for (int i = 1; i <= 5; i++) {
+            for (int j = 1; j <= range; j++) {
+                System.out.printf("%-4d", i * j);
+            }
+            System.out.println();
+        }
+
+        scanner.close();
     }
-    
 }
+ 
