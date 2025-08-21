@@ -1,3 +1,10 @@
+package javaapplication1;
+
+/**
+ *
+ * @author User
+ */
+
 public class Problem3 {
 
     public static void main(String[] args) {
