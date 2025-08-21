@@ -1,3 +1,10 @@
+package javaapplication1;
+
+/**
+ *
+ * @author User
+ */
+
 import java.util.Scanner;
 
 public class Problem7 {
